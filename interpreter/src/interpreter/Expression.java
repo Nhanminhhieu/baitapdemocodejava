@@ -1,5 +1,5 @@
 package interpreter;
 
-public class Expression {
-
+public interface Expression {
+	int interpret (InterpreterEnginContext context);
 }

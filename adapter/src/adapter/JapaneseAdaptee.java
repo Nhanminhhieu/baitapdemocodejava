@@ -4,6 +4,6 @@ public class JapaneseAdaptee {
 	
 	public void receive (String chuoi) {
 		System.out.println("Receive info from adapter");
-
+		System.out.println(chuoi);
 	}
 }
